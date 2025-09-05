@@ -571,7 +571,7 @@ Ce travail m’a permis d'apprendre à:
 
 Par exemple, lorsque j'ai lancé le jeu pour le tester, j'ai vu qu'au lancement du niveau **trop d’objets étaient instanciés d’un coup**. La plupart de ces objets ont un **son de spawn**, ce qui entraîne une **surcharge audio** et nuit aux performances. Ce problème a été ensuite rapidement corrigé par mon binôme.
 
-![Niveau construit manuellement](img/autre/level.png)  
+![Niveau construit manuellement](img/autre/Level.png)  
 > *Figure : Vue de haut du niveau créé à la main.*
 
 > Le niveau a été légèrement modifié par la suite ce n'est donc pas sa version finale.
