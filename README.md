@@ -340,7 +340,7 @@ Pour rendre la boussole compatible avec cela :
 - J’ai attribué un **tag spécifique** à l’objectif.
 - Grâce à `FindWithTag`, je localise dynamiquement le [gameobject](#gameobject) de l’objectif.
 
-<img src="img/item/boussole.png" alt="[prefab](#prefab) de la boussole" width="400px">
+<img src="img/item/Boussole.png" alt="[prefab](#prefab) de la boussole" width="400px">
 
 > *Figure : Le [prefab](#prefab) de la boussole dans Unity*
 
@@ -363,7 +363,7 @@ L’un des problèmes rencontrés a été que l’aiguille ne tournait pas corre
 - Bloquer la rotation sur l’axe Y
 - Utiliser une **rotation locale** (c’est-à-dire une rotation appliquée uniquement à l’objet lui-même, sans affecter ses parents ou ses enfants dans la hiérarchie), sinon c’est toute la boussole qui tournait
 
-<img src="img/item/boussole_showing_where_is_the_goal.png" alt="La boussole qui montre l'objectif" width="800px">
+<img src="img/item/Boussole_showing_where_is_the_goal.png" alt="La boussole qui montre l'objectif" width="800px">
 
 > *Figure : La boussole orientée vers l’objectif du joueur*
 
@@ -470,7 +470,7 @@ Ils sont centralisés dans un objet nommé `SkyboxProperties`, qui indique pour 
 - l’heure de début et de fin
 - la chance d’activation
 
-![SkyboxProperties](img/skybox/SkyboxProperties.png)  
+![SkyboxProperties](img/skybox/SkyBoxProperties.png)  
 > *Figure : Liste des propriétés météo, avec réglage horaire et intensité*
 
 ---
