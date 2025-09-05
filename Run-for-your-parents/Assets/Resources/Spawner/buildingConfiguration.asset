@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ed9143ab108074c8e09fd61d5b38d4, type: 3}
+  m_Name: buildingConfiguration
+  m_EditorClassIdentifier: 
+  spawnableObjects:
+  - prefab: {fileID: 2217786138061251784, guid: 15ea75eacfd7e9d4fbcf98b06cb49c55, type: 3}
+    weight: 50
+    distanceFromPrefabBase: 0.074999996
+  - prefab: {fileID: 0}
+    weight: 40
+    distanceFromPrefabBase: 0
+  - prefab: {fileID: 7534344403055397854, guid: c00d34e2d0f343545bdf78c844871fec, type: 3}
+    weight: 20
+    distanceFromPrefabBase: 0
+  - prefab: {fileID: 8521627273867455453, guid: 8f4abce566ed3644a9d77527fa0cfb9b, type: 3}
+    weight: 20
+    distanceFromPrefabBase: 0.02
+  - prefab: {fileID: 407926326763207534, guid: 893afe38dacefb748b3de13f5f684697, type: 3}
+    weight: 30
+    distanceFromPrefabBase: 1
+  - prefab: {fileID: 5859432759076383900, guid: 48772606ffe67c14897ebfd539fa78d9, type: 3}
+    weight: 10
+    distanceFromPrefabBase: 0.35
+  - prefab: {fileID: 4424404308167828149, guid: 726e3d89b29c66347aa74efb014b9f33, type: 3}
+    weight: 10
+    distanceFromPrefabBase: 0.35
+  - prefab: {fileID: 3548119974642419615, guid: 05315f796abcb6c4abc3cc2b5cf859d2, type: 3}
+    weight: 10
+    distanceFromPrefabBase: 0.35
+  - prefab: {fileID: 4424404308167828149, guid: 726e3d89b29c66347aa74efb014b9f33, type: 3}
+    weight: 10
+    distanceFromPrefabBase: 0.35
+  - prefab: {fileID: 3548119974642419615, guid: 4383466483af8914e9a5b79daf0a3e68, type: 3}
+    weight: 10
+    distanceFromPrefabBase: 0.35
+  - prefab: {fileID: 6603562620589147079, guid: 6f11fba088302474d971437d8705d8f8, type: 3}
+    weight: 20
+    distanceFromPrefabBase: 0

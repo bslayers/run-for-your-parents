@@ -1,0 +1,36 @@
+#if UNITY_EDITOR
+using UnityEditor;
+
+[CustomEditor(typeof(/*type to customize*/), true)]
+public class #SCRIPTNAME# : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        serializedObject.Update();
+        SerializedProperty prop = serializedObject.GetIterator();
+        bool enterChildren = true;
+
+        while(prop.NextVisible(enterChildren))
+        {
+            enterChildren = false;
+
+            if (prop.name == "m_Script")
+            {
+                EditorGUI.BeginDisabledGroup(true);
+                EditorGUILayout.PropertyField(prop, true);
+                EditorGUI.EndDisabledGroup();
+                continue;
+            }
+
+            /*
+                check and customize your properties
+            */
+
+            EditorGUILayout.PropertyField(prop, true);
+            
+        }
+
+        serializedObject.ApplyModifiedProperties();
+    }
+}
+#endif

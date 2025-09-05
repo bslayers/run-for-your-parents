@@ -1,0 +1,58 @@
+using UnityEngine;
+
+public class #SCRIPTNAME# : MonoBehaviour
+{
+#region Variables
+
+
+#endregion
+
+#region Accessors
+
+
+#endregion
+
+
+#region Built-in
+
+    // Start is called once before the execution of Start after the MonoBehaviour is created
+    void Awake()
+    {
+        #NOTRIM#
+    }
+    
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        #NOTRIM#
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        #NOTRIM#
+    }
+
+#endregion
+
+#region Methods
+
+
+#endregion
+
+#region Coroutine
+
+
+#endregion
+
+#region Events
+
+
+#endregion
+
+#region Editor
+
+
+#endregion
+
+}

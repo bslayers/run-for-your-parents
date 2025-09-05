@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b341bb755ea2f24da40c2ce1f7ecb1b, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  rayCastLength: 3
+  sensibility: {x: 10, y: 10}
+  maxRotationXAxis:
+    min: -70
+    max: 80
+  positionOffset: {x: 0, y: 0.075, z: 0.03}
+  gravity: -12
+  jumpHight: 0.75
+  speeds:
+    walkingSpeed: 5
+    runningSpeed: 8
+    sneekingSpeed: 3
+    crawlingSpeed: 2
+    slitheringSpeed: 2
+  sounds:
+    footSound: {fileID: 11400000, guid: 41822ea12327f874693bd243852ec63a, type: 2}
+    crawlSound: {fileID: 0}
+    slitheringSound: {fileID: 11400000, guid: 7e2e7cd9dce4a8d439b751af624a0c48, type: 2}
+    whenWalking: 1
+    whenRunning: 2
+    whenSneeking: 0.5
+    whenLanding: 2

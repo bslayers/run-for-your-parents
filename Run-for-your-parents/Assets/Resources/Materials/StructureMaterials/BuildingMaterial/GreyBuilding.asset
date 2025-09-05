@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff81a2e3da263b1428ccc7ea24d358cf, type: 3}
+  m_Name: GreyBuilding
+  m_EditorClassIdentifier: 
+  wallMaterial: {fileID: 2100000, guid: 7bb7ea3206207a5438c861e6a00d8a11, type: 2}
+  ceillingMaterial: {fileID: 2100000, guid: 7bb7ea3206207a5438c861e6a00d8a11, type: 2}
+  floorMaterial: {fileID: 2100000, guid: 7bb7ea3206207a5438c861e6a00d8a11, type: 2}
+  stairMaterial: {fileID: 2100000, guid: 7bb7ea3206207a5438c861e6a00d8a11, type: 2}
+  roofMaterial: {fileID: 2100000, guid: 7bb7ea3206207a5438c861e6a00d8a11, type: 2}
+  columnMaterial: {fileID: 2100000, guid: 7bb7ea3206207a5438c861e6a00d8a11, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ed9143ab108074c8e09fd61d5b38d4, type: 3}
+  m_Name: StoneSpawner
+  m_EditorClassIdentifier: 
+  spawnableObjects:
+  - prefab: {fileID: 0}
+    weight: 8
+    distanceFromPrefabBase: 0
+  - prefab: {fileID: 7973136009718863698, guid: 5946dee6394a3314d8d2b7488e78a983, type: 3}
+    weight: 4
+    distanceFromPrefabBase: 0.07124883
+  - prefab: {fileID: 8943634966271976663, guid: fab2e1a439223214682dafba00c8f070, type: 3}
+    weight: 2
+    distanceFromPrefabBase: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a86481750a28447b7b47a0b94b2910, type: 3}
+  m_Name: WideRoadCornerPart-UR
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6400426421956159594, guid: 1434757b9b0007649aa0549f6a070740, type: 3}
+  rotation: 180
+  connection:
+    upLeft: 2
+    up: 2
+    upRight: 12
+    left: 2
+    center: 2
+    right: 2
+    downLeft: 2
+    down: 2
+    downRight: 2

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01d4b4eb23251744a0a572ad9c85b9a, type: 3}
+  m_Name: SteelCabinetMaterial
+  m_EditorClassIdentifier: 
+  handleMaterialData: {fileID: 11400000, guid: f1a1b53884090dc498924e9aba08cc4a, type: 2}
+  bodyMaterial: {fileID: 2100000, guid: 88307d6bc42ece9409c22e3734ccb172, type: 2}

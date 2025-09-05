@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Run-For-Your-Parents" company="BTM" webLink="http://" view-date="2025-03-27" view-index="0" gantt-divider-location="407" resource-divider-location="300" version="3.3.3312" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="223" order="0"/>
+        <field id="tpd4" name="Date de début" width="84" order="1"/>
+        <field id="tpd5" name="Date de fin" width="84" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="taskLabelUp" value=""/>
+        <option id="taskLabelDown" value=""/>
+        <option id="taskLabelRight" value="advancement"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#0000ff #33ff99 #66ffff #009900 #00ff00 #ff0000]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="206" order="0"/>
+        <field id="1" name="Rôle par défaut" width="90" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="7d5795fefce54b6c8a06767acdb806e9" name="Ennemi" color="#ff0000" meeting="false" project="true" start="2025-04-07" duration="9" complete="27" priority="2" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+            <task id="55" uid="d568ccd9a35a45eba71cc47036e400ef" name="Implémentation du pourchasseur" meeting="false" start="2025-04-08" duration="4" complete="0" expand="true"/>
+            <task id="57" uid="39d76f85035d409394fb19264c5f75cf" name="Implémentation du drone" meeting="false" start="2025-04-15" duration="3" complete="50" priority="2" expand="true"/>
+            <task id="5" uid="df63ccf476014f1eaa7a39048908578e" name="Comportement de l'ennemi" meeting="false" start="2025-04-07" duration="6" complete="29" expand="true">
+                <depend id="57" type="2" difference="0" hardness="Strong"/>
+                <task id="51" uid="7f2858564d52423b9f20bf54b2865af9" name="Patrouille" meeting="false" start="2025-04-07" duration="2" complete="80" priority="2" expand="true"/>
+                <task id="52" uid="3d7e862196144e5faf0b81dafc3486bf" name="Chase" meeting="false" start="2025-04-11" duration="2" complete="80" priority="2" expand="true"/>
+                <task id="53" uid="92fea4fda9c942608e59654d382affe3" name="Recherche" meeting="false" start="2025-04-07" duration="3" complete="0" priority="0" expand="true"/>
+                <task id="54" uid="d8216256824f45db8698439d9cf444a1" name="Pourchasse" meeting="false" start="2025-04-08" duration="4" complete="0" expand="true">
+                    <depend id="55" type="1" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="6" uid="75edaac4b7634d1386152d86bfaba424" name="Détection des cibles" meeting="false" start="2025-04-07" duration="1" complete="37" expand="true">
+                <task id="8" uid="1767fa9d1dfa49ea8a8adc92dcf410ac" name="Détection auditive" meeting="false" start="2025-04-07" duration="1" complete="0" expand="true"/>
+                <task id="7" uid="1b71e63353c64949995d2aaf8a9e51e6" name="Détection visuelle" meeting="false" start="2025-04-07" duration="1" complete="75" expand="true">
+                    <depend id="51" type="1" difference="0" hardness="Strong"/>
+                    <depend id="52" type="1" difference="0" hardness="Strong"/>
+                    <depend id="54" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+        </task>
+        <task id="1" uid="2ed33a4447694f36a518a4e86b5bb478" name="Joueur" color="#0000ff" meeting="false" project="true" start="2025-04-07" duration="6" complete="65" expand="true">
+            <task id="9" uid="005439664b8a499b85e4fe63c73b8b4f" name="Gestion des membres" color="#0000ff" meeting="false" start="2025-04-07" duration="4" complete="40" priority="4" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+                <depend id="17" type="1" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+                <depend id="52" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" uid="18c58f3f846646afa1eefc0fce6ca1c8" name="Gestion des inputs" color="#0000ff" meeting="false" start="2025-04-07" duration="2" complete="70" priority="4" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+                <depend id="48" type="2" difference="0" hardness="Strong"/>
+                <depend id="49" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" uid="fe4d12d5a8bb4cc3a12e9e4fa7e65678" name="Gestion de l'inventaire" color="#0000ff" meeting="false" start="2025-04-09" duration="2" complete="75" priority="4" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+                <depend id="16" type="1" difference="0" hardness="Strong"/>
+            </task>
+            <task id="48" uid="98d9076d96ef4fddba89347f4a2983b6" name="Gestion des déplacements" color="#0000ff" meeting="false" start="2025-04-09" duration="3" complete="75" priority="4" expand="true"/>
+            <task id="49" uid="088637cea2d144399ec3b9e89ee769e2" name="Gestion des interactions" color="#0000ff" meeting="false" start="2025-04-09" duration="2" complete="60" priority="4" expand="true">
+                <depend id="15" type="1" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" uid="94d4d04916f04ef9914f30387b94b125" name="UI" color="#33ff99" meeting="false" start="2025-04-11" duration="2" complete="80" expand="true">
+                <task id="14" uid="d5a2b0386fec4deb8750521eea2f4e49" name="Affichage des membres" color="#33ff99" meeting="false" start="2025-04-11" duration="2" complete="80" priority="2" expand="true"/>
+                <task id="13" uid="6668f24fd9db4f32a093cb7d274f29b8" name="affichage de l'inventaire" color="#33ff99" meeting="false" start="2025-04-11" duration="2" complete="80" priority="2" expand="true"/>
+            </task>
+        </task>
+        <task id="2" uid="cb6a2aaccca540c19336d1fc48ac2376" name="Menus" color="#009900" meeting="false" project="true" start="2025-04-07" duration="24" complete="42" expand="true">
+            <task id="47" uid="0c835dc15161416aaf833e65fc990902" name="Gestionnaires" meeting="false" start="2025-04-09" duration="2" complete="80" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+                <depend id="28" type="2" difference="0" hardness="Strong"/>
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+                <task id="25" uid="0c6f5c7291124f659af8ba646b70b7ad" name="Gestionnaire des inputs dans les menus" meeting="false" start="2025-04-09" duration="2" complete="80" priority="2" expand="true">
+                    <depend id="23" type="1" difference="0" hardness="Strong"/>
+                </task>
+                <task id="23" uid="c54db9386c6348678d1343a17452f0d6" name="Gestionnaire de menus" meeting="false" start="2025-04-09" duration="2" complete="80" priority="2" expand="true"/>
+            </task>
+            <task id="43" uid="5e55439f82e842a88e545bb9d80df8fa" name="Menu chat" meeting="false" start="2025-05-05" duration="4" complete="0" expand="true"/>
+            <task id="29" uid="6ee4507eb3414df9bed116d840ec83a1" name="Menu de réassignement des touches" meeting="false" start="2025-04-15" duration="2" complete="0" expand="true"/>
+            <task id="28" uid="9f1b85b4881b4b6e85ae20bfca30b93b" name="Menu des options" meeting="false" start="2025-04-11" duration="2" complete="50" expand="true">
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" uid="fe6a8e364baf4752a059f05e3ccfb0d7" name="Menu principal" meeting="false" start="2025-04-11" duration="2" complete="90" priority="2" expand="true"/>
+            <task id="27" uid="2e3f3198dcce48a08267dadafc9f2b4d" name="Menu pause" meeting="false" start="2025-04-11" duration="2" complete="80" priority="2" expand="true"/>
+            <task id="60" uid="ada77efa2d7540ce98c5c5a99d30e561" name="Menu de planification de l'expédition" meeting="false" start="2025-04-07" duration="2" complete="0" expand="true">
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="4" uid="53cc62a3dbcf4508b2999ec0e38bf13c" name="Niveaux" meeting="false" project="true" start="2025-04-09" duration="27" complete="0" expand="true">
+            <task id="31" uid="4213beda38794b5d96e212b9b4eaa3af" name="Génération procedurale" meeting="false" start="2025-04-21" duration="19" complete="0" expand="true">
+                <task id="33" uid="7df0e13218b8456a941b1bc9c67d24d0" name="Positionnement des objets dans les structures" meeting="false" start="2025-04-21" duration="4" complete="0" expand="true">
+                    <depend id="34" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="34" uid="47ab285f2c5848f39ad0e012ce5ab792" name="Choix de la structure en fonction de la zone disponible" meeting="false" start="2025-04-25" duration="2" complete="0" expand="true">
+                    <depend id="35" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="35" uid="b807695993c14945a8cfe26461c66d09" name="Positionnement des structures en fonction du terrain" meeting="false" start="2025-04-29" duration="4" complete="0" expand="true">
+                    <depend id="36" type="1" difference="0" hardness="Strong"/>
+                </task>
+                <task id="36" uid="e6031f6208ba49dbb1124e53eccb87a3" name="Génération du terrain" meeting="false" start="2025-04-29" duration="10" complete="0" expand="true">
+                    <depend id="40" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="40" uid="960e2b89eaa94fd6b9de3630cb2125f3" name="Positionnement des ennemis" meeting="false" start="2025-05-13" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="58" uid="9c486d4963ab4ca3ba2727c2d6cef686" name="La décharge" meeting="false" start="2025-04-09" duration="2" complete="0" expand="true">
+                <task id="59" uid="3b4db4477f5b44948d0306b0ed485db0" name="Créer La table de planification" meeting="false" start="2025-04-09" duration="2" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="41" uid="5cbc3cd7694449b59cc801f15e796b79" name="Multijoueur" meeting="false" project="true" start="2025-05-05" duration="20" complete="0" expand="true">
+            <task id="45" uid="65cfbac5e00d454c80151ea214bc4bc1" name="Multijoueur local" meeting="false" start="2025-05-05" duration="20" complete="0" priority="0" expand="true">
+                <depend id="43" type="1" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="3" uid="dffe2637ea6a4a8793bf49201c0ea3c7" name="Objets" meeting="false" project="true" start="2025-04-14" duration="2" complete="31" expand="true">
+            <task id="15" uid="802f52092a6d4f3eb0865bc31e06342e" name="Objets intéractibles" meeting="false" start="2025-04-14" duration="1" complete="50" priority="2" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" uid="584c59fafb534d5eb22b4f6ac26d8dc4" name="Objets prenables" meeting="false" start="2025-04-14" duration="1" complete="25" priority="2" expand="true"/>
+            <task id="17" uid="9c597f7435f44082a7839c52d3821bdf" name="Objets intéractibles piégés" meeting="false" start="2025-04-15" duration="1" complete="20" priority="2" expand="true"/>
+        </task>
+        <task id="18" uid="1de3cc29035c4956b6c1345aed71d79b" name="Zones déclencheuses d'évennement" meeting="false" project="true" start="2025-04-07" duration="5" complete="0" expand="true">
+            <task id="20" uid="fe4c890d88f143bb85621825351329ef" name="Zones normal" meeting="false" start="2025-04-07" duration="1" complete="0" priority="2" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" uid="4614f9a3cd994fde9a1f6de8fba54298" name="Zone piégée" meeting="false" start="2025-04-11" duration="1" complete="0" priority="2" expand="true"/>
+        </task>
+        <task id="21" uid="912c1ea60e314a2d871a3edb50232695" name="Gestionnaires" meeting="false" project="true" start="2025-04-18" duration="1" complete="0" expand="true">
+            <task id="22" uid="bf84b4afbe4f4040945ad5277efaa830" name="Gestionnaire d'emission de son" meeting="false" start="2025-04-18" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="30" uid="82e14ec0a8c347869e803117949ab816" name="Création des assets" meeting="false" project="true" start="2025-04-07" duration="10" complete="0" expand="true">
+            <task id="37" uid="cf0879cbe2a24c5a8660a722db3abba6" name="Création des assets de structure" meeting="false" start="2025-04-07" duration="10" complete="0" expand="true">
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="38" uid="07373235cc3d408ead2053c3478624d3" name="Création des assets d'objets" meeting="false" start="2025-04-07" duration="5" complete="0" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Romain" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Thomas" function="SoftwareDevelopment:2" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="28" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="57" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="51" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="53" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="49" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="55" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="25.0"/>
+        <allocation task-id="54" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="75.0"/>
+        <allocation task-id="8" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

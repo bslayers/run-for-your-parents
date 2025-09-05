@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a86481750a28447b7b47a0b94b2910, type: 3}
+  m_Name: SingleRoadConnection-L
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 905761849264425252, guid: 6f26c11c714418648a1ddbb66fb3840b, type: 3}
+  rotation: -90
+  connection:
+    upLeft: 12
+    up: 2
+    upRight: 2
+    left: 2
+    center: 2
+    right: 2
+    downLeft: 12
+    down: 2
+    downRight: 2

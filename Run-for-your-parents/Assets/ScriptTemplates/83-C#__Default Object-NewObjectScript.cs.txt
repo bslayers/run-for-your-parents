@@ -1,0 +1,36 @@
+
+
+public class #SCRIPTNAME#
+{
+#region Variables
+
+
+
+#endregion
+
+#region Accessors
+
+
+
+#endregion
+
+#region Constructor
+
+    public #SCRIPTNAME#()
+    {
+        #NOTRIM#
+    }
+
+#endregion
+
+#region Built-in
+
+
+#endregion
+
+#region Methods
+
+
+
+#endregion
+}

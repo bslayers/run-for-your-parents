@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e071834f4f18cd4b9cfd3aa378dfe2e, type: 3}
+  m_Name: BasicColor
+  m_EditorClassIdentifier: 
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  normalFontColor: {r: 0, g: 0, b: 0, a: 1}
+  highlightedColor: {r: 0.09089389, g: 0.6037736, b: 0.088287644, a: 1}
+  highlightedFontColor: {r: 1, g: 1, b: 1, a: 1}
+  SelectedColor: {r: 0.09019608, g: 0.6039216, b: 0.58497196, a: 1}
+  SelectedFontColor: {r: 1, g: 1, b: 1, a: 1}
+  pressedColor: {r: 0.90588236, g: 0.8546349, b: 0.090196095, a: 1}
+  pressedFontColor: {r: 1, g: 1, b: 1, a: 1}
